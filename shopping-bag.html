@@ -117,7 +117,7 @@
             <div class="goods">
                 <div class="goods__headings">
                     <h2>My shopping bag</h2>
-                    <p>(3 items)</p>
+                    <p>(<span>3</span> items)</p>
                 </div>
 
                 <article class="goods__item">
@@ -127,9 +127,9 @@
 
                     <div class="goods__info">
                         <h3 class="goods__name">OMEGA NATO Strap In Black With Grey Border</h3>
-                        <p class="goods__option">Option: <span class="goods__option_bolc">Lorem ipsum</span></p>
-                        <p class="goods__option">Size: <span class="goods__option_bolc">Middle</span></p>
-                        <p class="goods__option">Color: <span class="goods__option_bolc">Black</span></p>
+                        <p class="goods__option">Option: <span class="goods__option_bold">Lorem ipsum</span></p>
+                        <p class="goods__option">Size: <span class="goods__option_bold">Middle</span></p>
+                        <p class="goods__option">Color: <span class="goods__option_bold">Black</span></p>
 
                         <div class="goods__price-and-amount">
                             <h4 class="goods__price">135 &#8364;</h4>
@@ -141,6 +141,7 @@
 
                         </div>
                     </div>
+                    <button class="goods__delete"></button>
 
                 </article>
                 <article class="goods__item">
@@ -165,15 +166,53 @@
                         </div>
                     </div>
 
+                    <button class="goods__delete"></button>
+
                 </article>
 
             </div>
 
             <aside class="info">
                 <div class="info__prices">
+                    <div class="info__row">
+                        <p class="info__subtotal">Subtotal:</p>
+                        <span class="info__subtotal_bold">415 &#8364;</span>
+                    </div>
+
+                    <div class="info__row">
+                        <p class="info__shipping">Shipping:</p>
+                        <p class="info__shipping">Deteailed in ordering</p>
+                    </div>
+
+                    <div class="info__row">
+                        <p class="info__total">Total:</p>
+                        <span class="info__total">415 &#8364;</span>
+                    </div>
 
 
+                </div>
 
+                <div class="info__checkout">
+                    <button class="product__link product__link_black">Checkout</button>
+
+                    <h4 class="info__heading">Payment Method:</h4>
+                    <div class="product-card__payment">
+                        <img src="img/payment-paypal.svg" alt="PayPal">
+                        <img src="img/payment-visa.svg" alt="Visa">
+                        <img src="img/payment-mastercard.svg" alt="MasterCard">
+                        <img src="img/payment-maestro.svg" alt="Maestro">
+                        <img src="img/payment-american-express.svg" alt="American Express">
+                    </div>
+                </div>
+
+                <div class="info__secure">
+                    <h4 class="info__heading">Secure Payments</h4>
+                    <p class="info__text">Payment information is transferred according to the highest security standards, guaranteed by Trustwave and Geotrust: your credit card details will be completely encrypted.</p>
+                </div>
+
+                <div class="info__delivery">
+                    <h4 class="info__heading">Delivery times:</h4>
+                    <p class="info__text">- United Kingdom 1-2 days</p>
                 </div>
             </aside>
         </section>

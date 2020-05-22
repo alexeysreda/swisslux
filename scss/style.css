@@ -855,4 +855,20 @@ body {
   margin-right: 20px;
 }
 
+.shopping-bag {
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.goods__headings {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
 /*# sourceMappingURL=style.css.map */
