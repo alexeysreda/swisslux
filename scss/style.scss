@@ -1033,6 +1033,12 @@ body {
 
     &:hover, &:focus {
         cursor: pointer;
+
+        &::before, &::after {
+            //width: 19px;
+            height: 2px;
+            //right: -1px;
+        }
     }
 
 }

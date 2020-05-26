@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWISSLUX</title>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="icon" href="favicon.png">
+</head>
+<body>
+<header class="header" id="header">
+    <div class="container header__wrapper">
+        <img src="img/logo.svg" alt="" class="header__logo">
+
+        <div class="header__right">
+            <div class="header__right-top">
+                <ul class="header__menu">
+                    <li>
+                        <a href="https://www.ebay.co.uk/sch/m.html?_odkw=&_ssn=swisswatchstraps&hash=item2162814596%3Am%3AmcmqBJwSOhX9FpVVTkrkq9g&item=143386559894&checksum=143386559894cdea2e13b7c34b0d92d245614ee0fc80&_osacat=0&enc=AQAEAAACcIQvEcHUrT7nmUC3yY5qbPyaBN1nJEDYW8MyypsJPgXKRMnMe4hpRS1YrOJd%2BCnTxdRyfdacGomwNj60Jmz%2FfCquCdAozsA6RKs2mirpKVeA%2BTW7QLz5SqH68rB%2BfX6Kj2ipErJkdPjHajfTJYLgS6q6FSfsM69Uh2y%2Fs9eSK69%2F64ogl%2FZYFc9V5wQv8JxZ0YGDF4LAj5C0HVQ8gnAt6bS%2FYlvY71CAr%2F2sqOwzd8cMiIo9g3S67lsepXdsH9NvXSu0aYhywqRIOchL1eg%2FoQ%2FSak2IxneOjsOEMX2R%2FbomTdPnKZSoo4DQQ%2Bx1EzVCGrmOX3T85fvYVfDbI7zZ6QnAepZRHx0sUrpfQ3jHhGQZ544O4tc4PcgDmFKMEiYVeaixm1wZrvtFU1HwnjwFERBjhAhMCkZGgEmxMn5Lz2RVa26uAlr%2BDAWslCrzy%2B%2FjZZX9qEyrbC7bvF0r25ywUNsghFvx9hxgOCBbcOV0rai%2FUuooycncnB6G93R18Nkb2KJXWsduktp1RUCbCXrypcavSqpzevjNdWtFAwFbtve1ujcsY1reCtSUKfhRAqMeddUsNGRtD1rswt%2FnxdvcjGFWmZ5BlJVn8m7wEOjRCHKGrRIR08w9hk%2FnP05%2FzTTB9lVx8KaXHC4OibFjDbv42k8rMvB0Ocz6x089%2FqKM8q5meG68EOBjGnUcIh7uUlI4K7SrvqNEfjHh33utaInszmuP6p4qoE16F8eTXPB6etwZHrUrei%2Fw%2Bn3WH%2FZVEw3Q7LzGx7LQ4bZjcmh7HvbB1Tdu7%2BokZw6%2FdcMtw0vRCFttTbu%2FTJ6VQb5ozm%2BXqjQSHA%3D%3D&_from=R40&_trksid=p2046732.m570.l1313.TR10.TRC0.A0.H0.Xalligator+strap.TRS0&_nkw=alligator+strap&_sacat=0">
+                            Contacts
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.ebay.co.uk/sch/m.html?_odkw=&_ssn=swisswatchstraps&hash=item2162814596%3Am%3AmcmqBJwSOhX9FpVVTkrkq9g&item=143386559894&checksum=143386559894cdea2e13b7c34b0d92d245614ee0fc80&_osacat=0&enc=AQAEAAACcIQvEcHUrT7nmUC3yY5qbPyaBN1nJEDYW8MyypsJPgXKRMnMe4hpRS1YrOJd%2BCnTxdRyfdacGomwNj60Jmz%2FfCquCdAozsA6RKs2mirpKVeA%2BTW7QLz5SqH68rB%2BfX6Kj2ipErJkdPjHajfTJYLgS6q6FSfsM69Uh2y%2Fs9eSK69%2F64ogl%2FZYFc9V5wQv8JxZ0YGDF4LAj5C0HVQ8gnAt6bS%2FYlvY71CAr%2F2sqOwzd8cMiIo9g3S67lsepXdsH9NvXSu0aYhywqRIOchL1eg%2FoQ%2FSak2IxneOjsOEMX2R%2FbomTdPnKZSoo4DQQ%2Bx1EzVCGrmOX3T85fvYVfDbI7zZ6QnAepZRHx0sUrpfQ3jHhGQZ544O4tc4PcgDmFKMEiYVeaixm1wZrvtFU1HwnjwFERBjhAhMCkZGgEmxMn5Lz2RVa26uAlr%2BDAWslCrzy%2B%2FjZZX9qEyrbC7bvF0r25ywUNsghFvx9hxgOCBbcOV0rai%2FUuooycncnB6G93R18Nkb2KJXWsduktp1RUCbCXrypcavSqpzevjNdWtFAwFbtve1ujcsY1reCtSUKfhRAqMeddUsNGRtD1rswt%2FnxdvcjGFWmZ5BlJVn8m7wEOjRCHKGrRIR08w9hk%2FnP05%2FzTTB9lVx8KaXHC4OibFjDbv42k8rMvB0Ocz6x089%2FqKM8q5meG68EOBjGnUcIh7uUlI4K7SrvqNEfjHh33utaInszmuP6p4qoE16F8eTXPB6etwZHrUrei%2Fw%2Bn3WH%2FZVEw3Q7LzGx7LQ4bZjcmh7HvbB1Tdu7%2BokZw6%2FdcMtw0vRCFttTbu%2FTJ6VQb5ozm%2BXqjQSHA%3D%3D&_from=R40&_trksid=p2046732.m570.l1313.TR10.TRC0.A0.H0.Xalligator+strap.TRS0&_nkw=alligator+strap&_sacat=0">
+                            About us
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.ebay.co.uk/sch/m.html?_odkw=&_ssn=swisswatchstraps&hash=item2162814596%3Am%3AmcmqBJwSOhX9FpVVTkrkq9g&item=143386559894&checksum=143386559894cdea2e13b7c34b0d92d245614ee0fc80&_osacat=0&enc=AQAEAAACcIQvEcHUrT7nmUC3yY5qbPyaBN1nJEDYW8MyypsJPgXKRMnMe4hpRS1YrOJd%2BCnTxdRyfdacGomwNj60Jmz%2FfCquCdAozsA6RKs2mirpKVeA%2BTW7QLz5SqH68rB%2BfX6Kj2ipErJkdPjHajfTJYLgS6q6FSfsM69Uh2y%2Fs9eSK69%2F64ogl%2FZYFc9V5wQv8JxZ0YGDF4LAj5C0HVQ8gnAt6bS%2FYlvY71CAr%2F2sqOwzd8cMiIo9g3S67lsepXdsH9NvXSu0aYhywqRIOchL1eg%2FoQ%2FSak2IxneOjsOEMX2R%2FbomTdPnKZSoo4DQQ%2Bx1EzVCGrmOX3T85fvYVfDbI7zZ6QnAepZRHx0sUrpfQ3jHhGQZ544O4tc4PcgDmFKMEiYVeaixm1wZrvtFU1HwnjwFERBjhAhMCkZGgEmxMn5Lz2RVa26uAlr%2BDAWslCrzy%2B%2FjZZX9qEyrbC7bvF0r25ywUNsghFvx9hxgOCBbcOV0rai%2FUuooycncnB6G93R18Nkb2KJXWsduktp1RUCbCXrypcavSqpzevjNdWtFAwFbtve1ujcsY1reCtSUKfhRAqMeddUsNGRtD1rswt%2FnxdvcjGFWmZ5BlJVn8m7wEOjRCHKGrRIR08w9hk%2FnP05%2FzTTB9lVx8KaXHC4OibFjDbv42k8rMvB0Ocz6x089%2FqKM8q5meG68EOBjGnUcIh7uUlI4K7SrvqNEfjHh33utaInszmuP6p4qoE16F8eTXPB6etwZHrUrei%2Fw%2Bn3WH%2FZVEw3Q7LzGx7LQ4bZjcmh7HvbB1Tdu7%2BokZw6%2FdcMtw0vRCFttTbu%2FTJ6VQb5ozm%2BXqjQSHA%3D%3D&_from=R40&_trksid=p2046732.m570.l1313.TR10.TRC0.A0.H0.Xalligator+strap.TRS0&_nkw=alligator+strap&_sacat=0">
+                            Guide
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.ebay.co.uk/sch/m.html?_odkw=&_ssn=swisswatchstraps&hash=item2162814596%3Am%3AmcmqBJwSOhX9FpVVTkrkq9g&item=143386559894&checksum=143386559894cdea2e13b7c34b0d92d245614ee0fc80&_osacat=0&enc=AQAEAAACcIQvEcHUrT7nmUC3yY5qbPyaBN1nJEDYW8MyypsJPgXKRMnMe4hpRS1YrOJd%2BCnTxdRyfdacGomwNj60Jmz%2FfCquCdAozsA6RKs2mirpKVeA%2BTW7QLz5SqH68rB%2BfX6Kj2ipErJkdPjHajfTJYLgS6q6FSfsM69Uh2y%2Fs9eSK69%2F64ogl%2FZYFc9V5wQv8JxZ0YGDF4LAj5C0HVQ8gnAt6bS%2FYlvY71CAr%2F2sqOwzd8cMiIo9g3S67lsepXdsH9NvXSu0aYhywqRIOchL1eg%2FoQ%2FSak2IxneOjsOEMX2R%2FbomTdPnKZSoo4DQQ%2Bx1EzVCGrmOX3T85fvYVfDbI7zZ6QnAepZRHx0sUrpfQ3jHhGQZ544O4tc4PcgDmFKMEiYVeaixm1wZrvtFU1HwnjwFERBjhAhMCkZGgEmxMn5Lz2RVa26uAlr%2BDAWslCrzy%2B%2FjZZX9qEyrbC7bvF0r25ywUNsghFvx9hxgOCBbcOV0rai%2FUuooycncnB6G93R18Nkb2KJXWsduktp1RUCbCXrypcavSqpzevjNdWtFAwFbtve1ujcsY1reCtSUKfhRAqMeddUsNGRtD1rswt%2FnxdvcjGFWmZ5BlJVn8m7wEOjRCHKGrRIR08w9hk%2FnP05%2FzTTB9lVx8KaXHC4OibFjDbv42k8rMvB0Ocz6x089%2FqKM8q5meG68EOBjGnUcIh7uUlI4K7SrvqNEfjHh33utaInszmuP6p4qoE16F8eTXPB6etwZHrUrei%2Fw%2Bn3WH%2FZVEw3Q7LzGx7LQ4bZjcmh7HvbB1Tdu7%2BokZw6%2FdcMtw0vRCFttTbu%2FTJ6VQb5ozm%2BXqjQSHA%3D%3D&_from=R40&_trksid=p2046732.m570.l1313.TR10.TRC0.A0.H0.Xalligator+strap.TRS0&_nkw=alligator+strap&_sacat=0">
+                            Payments
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.ebay.co.uk/sch/m.html?_odkw=&_ssn=swisswatchstraps&hash=item2162814596%3Am%3AmcmqBJwSOhX9FpVVTkrkq9g&item=143386559894&checksum=143386559894cdea2e13b7c34b0d92d245614ee0fc80&_osacat=0&enc=AQAEAAACcIQvEcHUrT7nmUC3yY5qbPyaBN1nJEDYW8MyypsJPgXKRMnMe4hpRS1YrOJd%2BCnTxdRyfdacGomwNj60Jmz%2FfCquCdAozsA6RKs2mirpKVeA%2BTW7QLz5SqH68rB%2BfX6Kj2ipErJkdPjHajfTJYLgS6q6FSfsM69Uh2y%2Fs9eSK69%2F64ogl%2FZYFc9V5wQv8JxZ0YGDF4LAj5C0HVQ8gnAt6bS%2FYlvY71CAr%2F2sqOwzd8cMiIo9g3S67lsepXdsH9NvXSu0aYhywqRIOchL1eg%2FoQ%2FSak2IxneOjsOEMX2R%2FbomTdPnKZSoo4DQQ%2Bx1EzVCGrmOX3T85fvYVfDbI7zZ6QnAepZRHx0sUrpfQ3jHhGQZ544O4tc4PcgDmFKMEiYVeaixm1wZrvtFU1HwnjwFERBjhAhMCkZGgEmxMn5Lz2RVa26uAlr%2BDAWslCrzy%2B%2FjZZX9qEyrbC7bvF0r25ywUNsghFvx9hxgOCBbcOV0rai%2FUuooycncnB6G93R18Nkb2KJXWsduktp1RUCbCXrypcavSqpzevjNdWtFAwFbtve1ujcsY1reCtSUKfhRAqMeddUsNGRtD1rswt%2FnxdvcjGFWmZ5BlJVn8m7wEOjRCHKGrRIR08w9hk%2FnP05%2FzTTB9lVx8KaXHC4OibFjDbv42k8rMvB0Ocz6x089%2FqKM8q5meG68EOBjGnUcIh7uUlI4K7SrvqNEfjHh33utaInszmuP6p4qoE16F8eTXPB6etwZHrUrei%2Fw%2Bn3WH%2FZVEw3Q7LzGx7LQ4bZjcmh7HvbB1Tdu7%2BokZw6%2FdcMtw0vRCFttTbu%2FTJ6VQb5ozm%2BXqjQSHA%3D%3D&_from=R40&_trksid=p2046732.m570.l1313.TR10.TRC0.A0.H0.Xalligator+strap.TRS0&_nkw=alligator+strap&_sacat=0">
+                            Delivery
+                        </a>
+                    </li>
+                </ul>
+
+                <div style="display: flex; align-items: center;">
+                    <a href="#" class="header__search">
+                        <img src="img/search.svg" alt="">
+                    </a>
+
+                    <a href="#" class="header__account">
+                        <img src="img/account.svg" alt="">
+                        <span>My account</span>
+                    </a>
+
+                    <a href="#" class="header__burger menu-btn">
+                        <span></span>
+                    </a>
+                </div>
+
+            </div>
+
+            <ul class="header__categories">
+                <li>
+                    <a href="https://www.ebay.co.uk/sch/m.html?_odkw=&_ssn=swisswatchstraps&hash=item2162814596%3Am%3AmcmqBJwSOhX9FpVVTkrkq9g&item=143386559894&checksum=143386559894cdea2e13b7c34b0d92d245614ee0fc80&_osacat=0&enc=AQAEAAACcIQvEcHUrT7nmUC3yY5qbPyaBN1nJEDYW8MyypsJPgXKRMnMe4hpRS1YrOJd%2BCnTxdRyfdacGomwNj60Jmz%2FfCquCdAozsA6RKs2mirpKVeA%2BTW7QLz5SqH68rB%2BfX6Kj2ipErJkdPjHajfTJYLgS6q6FSfsM69Uh2y%2Fs9eSK69%2F64ogl%2FZYFc9V5wQv8JxZ0YGDF4LAj5C0HVQ8gnAt6bS%2FYlvY71CAr%2F2sqOwzd8cMiIo9g3S67lsepXdsH9NvXSu0aYhywqRIOchL1eg%2FoQ%2FSak2IxneOjsOEMX2R%2FbomTdPnKZSoo4DQQ%2Bx1EzVCGrmOX3T85fvYVfDbI7zZ6QnAepZRHx0sUrpfQ3jHhGQZ544O4tc4PcgDmFKMEiYVeaixm1wZrvtFU1HwnjwFERBjhAhMCkZGgEmxMn5Lz2RVa26uAlr%2BDAWslCrzy%2B%2FjZZX9qEyrbC7bvF0r25ywUNsghFvx9hxgOCBbcOV0rai%2FUuooycncnB6G93R18Nkb2KJXWsduktp1RUCbCXrypcavSqpzevjNdWtFAwFbtve1ujcsY1reCtSUKfhRAqMeddUsNGRtD1rswt%2FnxdvcjGFWmZ5BlJVn8m7wEOjRCHKGrRIR08w9hk%2FnP05%2FzTTB9lVx8KaXHC4OibFjDbv42k8rMvB0Ocz6x089%2FqKM8q5meG68EOBjGnUcIh7uUlI4K7SrvqNEfjHh33utaInszmuP6p4qoE16F8eTXPB6etwZHrUrei%2Fw%2Bn3WH%2FZVEw3Q7LzGx7LQ4bZjcmh7HvbB1Tdu7%2BokZw6%2FdcMtw0vRCFttTbu%2FTJ6VQb5ozm%2BXqjQSHA%3D%3D&_from=R40&_trksid=p2046732.m570.l1313.TR10.TRC0.A0.H0.Xalligator+strap.TRS0&_nkw=alligator+strap&_sacat=0">
+                        watch straps
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.ebay.co.uk/sch/m.html?_odkw=&_ssn=swisswatchstraps&hash=item2162814596%3Am%3AmcmqBJwSOhX9FpVVTkrkq9g&item=143386559894&checksum=143386559894cdea2e13b7c34b0d92d245614ee0fc80&_osacat=0&enc=AQAEAAACcIQvEcHUrT7nmUC3yY5qbPyaBN1nJEDYW8MyypsJPgXKRMnMe4hpRS1YrOJd%2BCnTxdRyfdacGomwNj60Jmz%2FfCquCdAozsA6RKs2mirpKVeA%2BTW7QLz5SqH68rB%2BfX6Kj2ipErJkdPjHajfTJYLgS6q6FSfsM69Uh2y%2Fs9eSK69%2F64ogl%2FZYFc9V5wQv8JxZ0YGDF4LAj5C0HVQ8gnAt6bS%2FYlvY71CAr%2F2sqOwzd8cMiIo9g3S67lsepXdsH9NvXSu0aYhywqRIOchL1eg%2FoQ%2FSak2IxneOjsOEMX2R%2FbomTdPnKZSoo4DQQ%2Bx1EzVCGrmOX3T85fvYVfDbI7zZ6QnAepZRHx0sUrpfQ3jHhGQZ544O4tc4PcgDmFKMEiYVeaixm1wZrvtFU1HwnjwFERBjhAhMCkZGgEmxMn5Lz2RVa26uAlr%2BDAWslCrzy%2B%2FjZZX9qEyrbC7bvF0r25ywUNsghFvx9hxgOCBbcOV0rai%2FUuooycncnB6G93R18Nkb2KJXWsduktp1RUCbCXrypcavSqpzevjNdWtFAwFbtve1ujcsY1reCtSUKfhRAqMeddUsNGRtD1rswt%2FnxdvcjGFWmZ5BlJVn8m7wEOjRCHKGrRIR08w9hk%2FnP05%2FzTTB9lVx8KaXHC4OibFjDbv42k8rMvB0Ocz6x089%2FqKM8q5meG68EOBjGnUcIh7uUlI4K7SrvqNEfjHh33utaInszmuP6p4qoE16F8eTXPB6etwZHrUrei%2Fw%2Bn3WH%2FZVEw3Q7LzGx7LQ4bZjcmh7HvbB1Tdu7%2BokZw6%2FdcMtw0vRCFttTbu%2FTJ6VQb5ozm%2BXqjQSHA%3D%3D&_from=R40&_trksid=p2046732.m570.l1313.TR10.TRC0.A0.H0.Xalligator+strap.TRS0&_nkw=alligator+strap&_sacat=0">
+                        watch cases
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.ebay.co.uk/sch/m.html?_odkw=&_ssn=swisswatchstraps&hash=item2162814596%3Am%3AmcmqBJwSOhX9FpVVTkrkq9g&item=143386559894&checksum=143386559894cdea2e13b7c34b0d92d245614ee0fc80&_osacat=0&enc=AQAEAAACcIQvEcHUrT7nmUC3yY5qbPyaBN1nJEDYW8MyypsJPgXKRMnMe4hpRS1YrOJd%2BCnTxdRyfdacGomwNj60Jmz%2FfCquCdAozsA6RKs2mirpKVeA%2BTW7QLz5SqH68rB%2BfX6Kj2ipErJkdPjHajfTJYLgS6q6FSfsM69Uh2y%2Fs9eSK69%2F64ogl%2FZYFc9V5wQv8JxZ0YGDF4LAj5C0HVQ8gnAt6bS%2FYlvY71CAr%2F2sqOwzd8cMiIo9g3S67lsepXdsH9NvXSu0aYhywqRIOchL1eg%2FoQ%2FSak2IxneOjsOEMX2R%2FbomTdPnKZSoo4DQQ%2Bx1EzVCGrmOX3T85fvYVfDbI7zZ6QnAepZRHx0sUrpfQ3jHhGQZ544O4tc4PcgDmFKMEiYVeaixm1wZrvtFU1HwnjwFERBjhAhMCkZGgEmxMn5Lz2RVa26uAlr%2BDAWslCrzy%2B%2FjZZX9qEyrbC7bvF0r25ywUNsghFvx9hxgOCBbcOV0rai%2FUuooycncnB6G93R18Nkb2KJXWsduktp1RUCbCXrypcavSqpzevjNdWtFAwFbtve1ujcsY1reCtSUKfhRAqMeddUsNGRtD1rswt%2FnxdvcjGFWmZ5BlJVn8m7wEOjRCHKGrRIR08w9hk%2FnP05%2FzTTB9lVx8KaXHC4OibFjDbv42k8rMvB0Ocz6x089%2FqKM8q5meG68EOBjGnUcIh7uUlI4K7SrvqNEfjHh33utaInszmuP6p4qoE16F8eTXPB6etwZHrUrei%2Fw%2Bn3WH%2FZVEw3Q7LzGx7LQ4bZjcmh7HvbB1Tdu7%2BokZw6%2FdcMtw0vRCFttTbu%2FTJ6VQb5ozm%2BXqjQSHA%3D%3D&_from=R40&_trksid=p2046732.m570.l1313.TR10.TRC0.A0.H0.Xalligator+strap.TRS0&_nkw=alligator+strap&_sacat=0">
+                        accessories
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+<!-- CONTENT -->
+<main class="main" id="main">
+
+
+    <section class="breadcrumbs">
+        <div class="container">
+            <div class="breadcrumbs__list">
+                <a href="#" class="breadcrumbs__link">Home</a>
+                <a href="#" class="breadcrumbs__link">Shopping bag</a>
+                <a href="#" class="breadcrumbs__link breadcrumbs__link_active">Checkout</a>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <div class="container">
+        <section class="shopping-bag checkout">
+            <div class="goods">
+                <div class="goods__headings">
+                    <h2>Checkout</h2>
+                    <p><a href="">Login</a> or Enter your deteils to buy as a guest</p>
+                </div>
+
+
+                <h3 class="checkout__heading">Shipping to</h3>
+                <div class="checkout__row">
+                    <input type="text" placeholder="First name">
+                    <input type="text" placeholder="Last name">
+                </div>
+
+                <div class="checkout__row">
+                    <input type="text" placeholder="Address line 1">
+                    <input type="text" placeholder="Address line 2">
+                </div>
+
+                <div class="checkout__row">
+                    <select name="country" id="checkoutCountry">
+                        <option value="country" selected disabled>Country</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Bahamas">Bahamas</option>
+                        <option value="Barbodos">Barbodos</option>
+                        <option value="Belgium">Belgium</option>
+                        <option value="Cambodia">Cambodia</option>
+                        <option value="Chile">Chile</option>
+                        <option value="Dominica">Dominica</option>
+                        <option value="Egypt">Egypt</option>
+                    </select>
+                    <input type="text" placeholder="Town">
+                </div>
+
+                <div class="checkout__row">
+                    <input type="text" placeholder="Postcode">
+                    <select name="checkoutShippingMethod" id="checkoutShippingMethod">
+                        <option value="shipping method" selected disabled>Shipping method</option>
+                        <option value="Standard">Standard(free)</option>
+                        <option value="Express">Express(20 &#8364;)</option>
+
+                    </select>
+
+                </div>
+
+                <h3 class="checkout__heading">Contact details</h3>
+                <div class="checkout__row">
+                    <input type="email" placeholder="Email">
+                    <input type="tel" placeholder="Telephone">
+                </div>
+
+                <h3 class="checkout__heading">Add Note if required</h3>
+                <textarea name="checkoutComment" id="checkoutComment" cols="30" rows="10"></textarea>
+
+                <button class="product__link_black">Proceed to payment</button>
+
+
+            </div>
+
+            <aside class="info">
+
+                <article class="goods__item">
+                    <div class="goods__image">
+                        <img src="img/products/shopping-bag-1-small.jpg" alt="OMEGA NATO Strap In Black With Grey Border">
+                    </div>
+
+                    <div class="goods__info">
+                        <h3 class="goods__name">OMEGA NATO Strap In Black With Grey Border</h3>
+
+
+                        <div class="goods__price-and-amount">
+                            <h4 class="goods__price">135 &#8364;</h4>
+
+
+                        </div>
+                    </div>
+
+                </article>
+
+                <article class="goods__item">
+                    <div class="goods__image">
+                        <img src="img/products/shopping-bag-2-small.jpg" alt="The Barrett Watch Strap In Navy Blue">
+                    </div>
+
+                    <div class="goods__info">
+                        <h3 class="goods__name">The Barrett Watch Strap In Navy Blue</h3>
+
+
+                        <div class="goods__price-and-amount">
+                            <h4 class="goods__price">135 &#8364;</h4>
+
+
+                        </div>
+                    </div>
+
+                </article>
+                <div class="info__prices">
+                    <div class="info__row">
+                        <p class="info__subtotal">Subtotal:</p>
+                        <span class="info__subtotal_bold">415 &#8364;</span>
+                    </div>
+
+                    <div class="info__row">
+                        <p class="info__shipping">Shipping:</p>
+                        <p class="info__shipping">Deteailed in ordering</p>
+                    </div>
+
+                    <div class="info__row">
+                        <p class="info__total">Total:</p>
+                        <span class="info__total">415 &#8364;</span>
+                    </div>
+
+
+                </div>
+
+                <div class="info__checkout">
+                    <button class="product__link product__link_black">Checkout</button>
+
+                    <h4 class="info__heading">Payment Method:</h4>
+                    <div class="product-card__payment">
+                        <img src="img/payment-paypal.svg" alt="PayPal">
+                        <img src="img/payment-visa.svg" alt="Visa">
+                        <img src="img/payment-mastercard.svg" alt="MasterCard">
+                        <img src="img/payment-maestro.svg" alt="Maestro">
+                        <img src="img/payment-american-express.svg" alt="American Express">
+                    </div>
+                </div>
+
+                <div class="info__secure">
+                    <h4 class="info__heading">Secure Payments</h4>
+                    <p class="info__text">Payment information is transferred according to the highest security standards, guaranteed by Trustwave and Geotrust: your credit card details will be completely encrypted.</p>
+                </div>
+
+                <div class="info__delivery">
+                    <h4 class="info__heading">Delivery times:</h4>
+                    <p class="info__text">- United Kingdom 1-2 days</p>
+                </div>
+            </aside>
+        </section>
+    </div>
+
+
+</main>
+
+<footer class="footer" id="footer">
+    <div class="container footer__wrapper">
+        <p class="footer__rights">
+            All right reserved SWISSOLYMP UK Limited 2020
+        </p>
+
+        <div class="footer__socials">
+            <a href="https://www.facebook.com/Swisslux-Watch-Straps-102775274741933/">
+                <img src="img/facebook.svg" alt="">
+            </a>
+
+            <a href="#">
+                <img src="img/vk.svg" alt="">
+            </a>
+
+            <a href="#">
+                <img src="img/instagram.svg" alt="">
+            </a>
+
+            <a href="#">
+                <img src="img/pintersst.svg" alt="">
+            </a>
+        </div>
+    </div>
+</footer>
+
+
+<div class="mobile-menu">
+    <ul class="mobile-menu__cat">
+        <li>
+            <a href="https://www.ebay.co.uk/sch/m.html?_odkw=&_ssn=swisswatchstraps&hash=item2162814596%3Am%3AmcmqBJwSOhX9FpVVTkrkq9g&item=143386559894&checksum=143386559894cdea2e13b7c34b0d92d245614ee0fc80&_osacat=0&enc=AQAEAAACcIQvEcHUrT7nmUC3yY5qbPyaBN1nJEDYW8MyypsJPgXKRMnMe4hpRS1YrOJd%2BCnTxdRyfdacGomwNj60Jmz%2FfCquCdAozsA6RKs2mirpKVeA%2BTW7QLz5SqH68rB%2BfX6Kj2ipErJkdPjHajfTJYLgS6q6FSfsM69Uh2y%2Fs9eSK69%2F64ogl%2FZYFc9V5wQv8JxZ0YGDF4LAj5C0HVQ8gnAt6bS%2FYlvY71CAr%2F2sqOwzd8cMiIo9g3S67lsepXdsH9NvXSu0aYhywqRIOchL1eg%2FoQ%2FSak2IxneOjsOEMX2R%2FbomTdPnKZSoo4DQQ%2Bx1EzVCGrmOX3T85fvYVfDbI7zZ6QnAepZRHx0sUrpfQ3jHhGQZ544O4tc4PcgDmFKMEiYVeaixm1wZrvtFU1HwnjwFERBjhAhMCkZGgEmxMn5Lz2RVa26uAlr%2BDAWslCrzy%2B%2FjZZX9qEyrbC7bvF0r25ywUNsghFvx9hxgOCBbcOV0rai%2FUuooycncnB6G93R18Nkb2KJXWsduktp1RUCbCXrypcavSqpzevjNdWtFAwFbtve1ujcsY1reCtSUKfhRAqMeddUsNGRtD1rswt%2FnxdvcjGFWmZ5BlJVn8m7wEOjRCHKGrRIR08w9hk%2FnP05%2FzTTB9lVx8KaXHC4OibFjDbv42k8rMvB0Ocz6x089%2FqKM8q5meG68EOBjGnUcIh7uUlI4K7SrvqNEfjHh33utaInszmuP6p4qoE16F8eTXPB6etwZHrUrei%2Fw%2Bn3WH%2FZVEw3Q7LzGx7LQ4bZjcmh7HvbB1Tdu7%2BokZw6%2FdcMtw0vRCFttTbu%2FTJ6VQb5ozm%2BXqjQSHA%3D%3D&_from=R40&_trksid=p2046732.m570.l1313.TR10.TRC0.A0.H0.Xalligator+strap.TRS0&_nkw=alligator+strap&_sacat=0">
+                watch straps
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.ebay.co.uk/sch/m.html?_odkw=&_ssn=swisswatchstraps&hash=item2162814596%3Am%3AmcmqBJwSOhX9FpVVTkrkq9g&item=143386559894&checksum=143386559894cdea2e13b7c34b0d92d245614ee0fc80&_osacat=0&enc=AQAEAAACcIQvEcHUrT7nmUC3yY5qbPyaBN1nJEDYW8MyypsJPgXKRMnMe4hpRS1YrOJd%2BCnTxdRyfdacGomwNj60Jmz%2FfCquCdAozsA6RKs2mirpKVeA%2BTW7QLz5SqH68rB%2BfX6Kj2ipErJkdPjHajfTJYLgS6q6FSfsM69Uh2y%2Fs9eSK69%2F64ogl%2FZYFc9V5wQv8JxZ0YGDF4LAj5C0HVQ8gnAt6bS%2FYlvY71CAr%2F2sqOwzd8cMiIo9g3S67lsepXdsH9NvXSu0aYhywqRIOchL1eg%2FoQ%2FSak2IxneOjsOEMX2R%2FbomTdPnKZSoo4DQQ%2Bx1EzVCGrmOX3T85fvYVfDbI7zZ6QnAepZRHx0sUrpfQ3jHhGQZ544O4tc4PcgDmFKMEiYVeaixm1wZrvtFU1HwnjwFERBjhAhMCkZGgEmxMn5Lz2RVa26uAlr%2BDAWslCrzy%2B%2FjZZX9qEyrbC7bvF0r25ywUNsghFvx9hxgOCBbcOV0rai%2FUuooycncnB6G93R18Nkb2KJXWsduktp1RUCbCXrypcavSqpzevjNdWtFAwFbtve1ujcsY1reCtSUKfhRAqMeddUsNGRtD1rswt%2FnxdvcjGFWmZ5BlJVn8m7wEOjRCHKGrRIR08w9hk%2FnP05%2FzTTB9lVx8KaXHC4OibFjDbv42k8rMvB0Ocz6x089%2FqKM8q5meG68EOBjGnUcIh7uUlI4K7SrvqNEfjHh33utaInszmuP6p4qoE16F8eTXPB6etwZHrUrei%2Fw%2Bn3WH%2FZVEw3Q7LzGx7LQ4bZjcmh7HvbB1Tdu7%2BokZw6%2FdcMtw0vRCFttTbu%2FTJ6VQb5ozm%2BXqjQSHA%3D%3D&_from=R40&_trksid=p2046732.m570.l1313.TR10.TRC0.A0.H0.Xalligator+strap.TRS0&_nkw=alligator+strap&_sacat=0">
+                watch cases
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.ebay.co.uk/sch/m.html?_odkw=&_ssn=swisswatchstraps&hash=item2162814596%3Am%3AmcmqBJwSOhX9FpVVTkrkq9g&item=143386559894&checksum=143386559894cdea2e13b7c34b0d92d245614ee0fc80&_osacat=0&enc=AQAEAAACcIQvEcHUrT7nmUC3yY5qbPyaBN1nJEDYW8MyypsJPgXKRMnMe4hpRS1YrOJd%2BCnTxdRyfdacGomwNj60Jmz%2FfCquCdAozsA6RKs2mirpKVeA%2BTW7QLz5SqH68rB%2BfX6Kj2ipErJkdPjHajfTJYLgS6q6FSfsM69Uh2y%2Fs9eSK69%2F64ogl%2FZYFc9V5wQv8JxZ0YGDF4LAj5C0HVQ8gnAt6bS%2FYlvY71CAr%2F2sqOwzd8cMiIo9g3S67lsepXdsH9NvXSu0aYhywqRIOchL1eg%2FoQ%2FSak2IxneOjsOEMX2R%2FbomTdPnKZSoo4DQQ%2Bx1EzVCGrmOX3T85fvYVfDbI7zZ6QnAepZRHx0sUrpfQ3jHhGQZ544O4tc4PcgDmFKMEiYVeaixm1wZrvtFU1HwnjwFERBjhAhMCkZGgEmxMn5Lz2RVa26uAlr%2BDAWslCrzy%2B%2FjZZX9qEyrbC7bvF0r25ywUNsghFvx9hxgOCBbcOV0rai%2FUuooycncnB6G93R18Nkb2KJXWsduktp1RUCbCXrypcavSqpzevjNdWtFAwFbtve1ujcsY1reCtSUKfhRAqMeddUsNGRtD1rswt%2FnxdvcjGFWmZ5BlJVn8m7wEOjRCHKGrRIR08w9hk%2FnP05%2FzTTB9lVx8KaXHC4OibFjDbv42k8rMvB0Ocz6x089%2FqKM8q5meG68EOBjGnUcIh7uUlI4K7SrvqNEfjHh33utaInszmuP6p4qoE16F8eTXPB6etwZHrUrei%2Fw%2Bn3WH%2FZVEw3Q7LzGx7LQ4bZjcmh7HvbB1Tdu7%2BokZw6%2FdcMtw0vRCFttTbu%2FTJ6VQb5ozm%2BXqjQSHA%3D%3D&_from=R40&_trksid=p2046732.m570.l1313.TR10.TRC0.A0.H0.Xalligator+strap.TRS0&_nkw=alligator+strap&_sacat=0">
+                ACCESSORIES
+            </a>
+        </li>
+    </ul>
+
+    <ul class="mobile-menu__nav">
+        <li>
+            <a href="https://www.ebay.co.uk/sch/m.html?_odkw=&_ssn=swisswatchstraps&hash=item2162814596%3Am%3AmcmqBJwSOhX9FpVVTkrkq9g&item=143386559894&checksum=143386559894cdea2e13b7c34b0d92d245614ee0fc80&_osacat=0&enc=AQAEAAACcIQvEcHUrT7nmUC3yY5qbPyaBN1nJEDYW8MyypsJPgXKRMnMe4hpRS1YrOJd%2BCnTxdRyfdacGomwNj60Jmz%2FfCquCdAozsA6RKs2mirpKVeA%2BTW7QLz5SqH68rB%2BfX6Kj2ipErJkdPjHajfTJYLgS6q6FSfsM69Uh2y%2Fs9eSK69%2F64ogl%2FZYFc9V5wQv8JxZ0YGDF4LAj5C0HVQ8gnAt6bS%2FYlvY71CAr%2F2sqOwzd8cMiIo9g3S67lsepXdsH9NvXSu0aYhywqRIOchL1eg%2FoQ%2FSak2IxneOjsOEMX2R%2FbomTdPnKZSoo4DQQ%2Bx1EzVCGrmOX3T85fvYVfDbI7zZ6QnAepZRHx0sUrpfQ3jHhGQZ544O4tc4PcgDmFKMEiYVeaixm1wZrvtFU1HwnjwFERBjhAhMCkZGgEmxMn5Lz2RVa26uAlr%2BDAWslCrzy%2B%2FjZZX9qEyrbC7bvF0r25ywUNsghFvx9hxgOCBbcOV0rai%2FUuooycncnB6G93R18Nkb2KJXWsduktp1RUCbCXrypcavSqpzevjNdWtFAwFbtve1ujcsY1reCtSUKfhRAqMeddUsNGRtD1rswt%2FnxdvcjGFWmZ5BlJVn8m7wEOjRCHKGrRIR08w9hk%2FnP05%2FzTTB9lVx8KaXHC4OibFjDbv42k8rMvB0Ocz6x089%2FqKM8q5meG68EOBjGnUcIh7uUlI4K7SrvqNEfjHh33utaInszmuP6p4qoE16F8eTXPB6etwZHrUrei%2Fw%2Bn3WH%2FZVEw3Q7LzGx7LQ4bZjcmh7HvbB1Tdu7%2BokZw6%2FdcMtw0vRCFttTbu%2FTJ6VQb5ozm%2BXqjQSHA%3D%3D&_from=R40&_trksid=p2046732.m570.l1313.TR10.TRC0.A0.H0.Xalligator+strap.TRS0&_nkw=alligator+strap&_sacat=0">
+                Contacts
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.ebay.co.uk/sch/m.html?_odkw=&_ssn=swisswatchstraps&hash=item2162814596%3Am%3AmcmqBJwSOhX9FpVVTkrkq9g&item=143386559894&checksum=143386559894cdea2e13b7c34b0d92d245614ee0fc80&_osacat=0&enc=AQAEAAACcIQvEcHUrT7nmUC3yY5qbPyaBN1nJEDYW8MyypsJPgXKRMnMe4hpRS1YrOJd%2BCnTxdRyfdacGomwNj60Jmz%2FfCquCdAozsA6RKs2mirpKVeA%2BTW7QLz5SqH68rB%2BfX6Kj2ipErJkdPjHajfTJYLgS6q6FSfsM69Uh2y%2Fs9eSK69%2F64ogl%2FZYFc9V5wQv8JxZ0YGDF4LAj5C0HVQ8gnAt6bS%2FYlvY71CAr%2F2sqOwzd8cMiIo9g3S67lsepXdsH9NvXSu0aYhywqRIOchL1eg%2FoQ%2FSak2IxneOjsOEMX2R%2FbomTdPnKZSoo4DQQ%2Bx1EzVCGrmOX3T85fvYVfDbI7zZ6QnAepZRHx0sUrpfQ3jHhGQZ544O4tc4PcgDmFKMEiYVeaixm1wZrvtFU1HwnjwFERBjhAhMCkZGgEmxMn5Lz2RVa26uAlr%2BDAWslCrzy%2B%2FjZZX9qEyrbC7bvF0r25ywUNsghFvx9hxgOCBbcOV0rai%2FUuooycncnB6G93R18Nkb2KJXWsduktp1RUCbCXrypcavSqpzevjNdWtFAwFbtve1ujcsY1reCtSUKfhRAqMeddUsNGRtD1rswt%2FnxdvcjGFWmZ5BlJVn8m7wEOjRCHKGrRIR08w9hk%2FnP05%2FzTTB9lVx8KaXHC4OibFjDbv42k8rMvB0Ocz6x089%2FqKM8q5meG68EOBjGnUcIh7uUlI4K7SrvqNEfjHh33utaInszmuP6p4qoE16F8eTXPB6etwZHrUrei%2Fw%2Bn3WH%2FZVEw3Q7LzGx7LQ4bZjcmh7HvbB1Tdu7%2BokZw6%2FdcMtw0vRCFttTbu%2FTJ6VQb5ozm%2BXqjQSHA%3D%3D&_from=R40&_trksid=p2046732.m570.l1313.TR10.TRC0.A0.H0.Xalligator+strap.TRS0&_nkw=alligator+strap&_sacat=0">
+                About us
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.ebay.co.uk/sch/m.html?_odkw=&_ssn=swisswatchstraps&hash=item2162814596%3Am%3AmcmqBJwSOhX9FpVVTkrkq9g&item=143386559894&checksum=143386559894cdea2e13b7c34b0d92d245614ee0fc80&_osacat=0&enc=AQAEAAACcIQvEcHUrT7nmUC3yY5qbPyaBN1nJEDYW8MyypsJPgXKRMnMe4hpRS1YrOJd%2BCnTxdRyfdacGomwNj60Jmz%2FfCquCdAozsA6RKs2mirpKVeA%2BTW7QLz5SqH68rB%2BfX6Kj2ipErJkdPjHajfTJYLgS6q6FSfsM69Uh2y%2Fs9eSK69%2F64ogl%2FZYFc9V5wQv8JxZ0YGDF4LAj5C0HVQ8gnAt6bS%2FYlvY71CAr%2F2sqOwzd8cMiIo9g3S67lsepXdsH9NvXSu0aYhywqRIOchL1eg%2FoQ%2FSak2IxneOjsOEMX2R%2FbomTdPnKZSoo4DQQ%2Bx1EzVCGrmOX3T85fvYVfDbI7zZ6QnAepZRHx0sUrpfQ3jHhGQZ544O4tc4PcgDmFKMEiYVeaixm1wZrvtFU1HwnjwFERBjhAhMCkZGgEmxMn5Lz2RVa26uAlr%2BDAWslCrzy%2B%2FjZZX9qEyrbC7bvF0r25ywUNsghFvx9hxgOCBbcOV0rai%2FUuooycncnB6G93R18Nkb2KJXWsduktp1RUCbCXrypcavSqpzevjNdWtFAwFbtve1ujcsY1reCtSUKfhRAqMeddUsNGRtD1rswt%2FnxdvcjGFWmZ5BlJVn8m7wEOjRCHKGrRIR08w9hk%2FnP05%2FzTTB9lVx8KaXHC4OibFjDbv42k8rMvB0Ocz6x089%2FqKM8q5meG68EOBjGnUcIh7uUlI4K7SrvqNEfjHh33utaInszmuP6p4qoE16F8eTXPB6etwZHrUrei%2Fw%2Bn3WH%2FZVEw3Q7LzGx7LQ4bZjcmh7HvbB1Tdu7%2BokZw6%2FdcMtw0vRCFttTbu%2FTJ6VQb5ozm%2BXqjQSHA%3D%3D&_from=R40&_trksid=p2046732.m570.l1313.TR10.TRC0.A0.H0.Xalligator+strap.TRS0&_nkw=alligator+strap&_sacat=0">
+                Guide
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.ebay.co.uk/sch/m.html?_odkw=&_ssn=swisswatchstraps&hash=item2162814596%3Am%3AmcmqBJwSOhX9FpVVTkrkq9g&item=143386559894&checksum=143386559894cdea2e13b7c34b0d92d245614ee0fc80&_osacat=0&enc=AQAEAAACcIQvEcHUrT7nmUC3yY5qbPyaBN1nJEDYW8MyypsJPgXKRMnMe4hpRS1YrOJd%2BCnTxdRyfdacGomwNj60Jmz%2FfCquCdAozsA6RKs2mirpKVeA%2BTW7QLz5SqH68rB%2BfX6Kj2ipErJkdPjHajfTJYLgS6q6FSfsM69Uh2y%2Fs9eSK69%2F64ogl%2FZYFc9V5wQv8JxZ0YGDF4LAj5C0HVQ8gnAt6bS%2FYlvY71CAr%2F2sqOwzd8cMiIo9g3S67lsepXdsH9NvXSu0aYhywqRIOchL1eg%2FoQ%2FSak2IxneOjsOEMX2R%2FbomTdPnKZSoo4DQQ%2Bx1EzVCGrmOX3T85fvYVfDbI7zZ6QnAepZRHx0sUrpfQ3jHhGQZ544O4tc4PcgDmFKMEiYVeaixm1wZrvtFU1HwnjwFERBjhAhMCkZGgEmxMn5Lz2RVa26uAlr%2BDAWslCrzy%2B%2FjZZX9qEyrbC7bvF0r25ywUNsghFvx9hxgOCBbcOV0rai%2FUuooycncnB6G93R18Nkb2KJXWsduktp1RUCbCXrypcavSqpzevjNdWtFAwFbtve1ujcsY1reCtSUKfhRAqMeddUsNGRtD1rswt%2FnxdvcjGFWmZ5BlJVn8m7wEOjRCHKGrRIR08w9hk%2FnP05%2FzTTB9lVx8KaXHC4OibFjDbv42k8rMvB0Ocz6x089%2FqKM8q5meG68EOBjGnUcIh7uUlI4K7SrvqNEfjHh33utaInszmuP6p4qoE16F8eTXPB6etwZHrUrei%2Fw%2Bn3WH%2FZVEw3Q7LzGx7LQ4bZjcmh7HvbB1Tdu7%2BokZw6%2FdcMtw0vRCFttTbu%2FTJ6VQb5ozm%2BXqjQSHA%3D%3D&_from=R40&_trksid=p2046732.m570.l1313.TR10.TRC0.A0.H0.Xalligator+strap.TRS0&_nkw=alligator+strap&_sacat=0">
+                Payments
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.ebay.co.uk/sch/m.html?_odkw=&_ssn=swisswatchstraps&hash=item2162814596%3Am%3AmcmqBJwSOhX9FpVVTkrkq9g&item=143386559894&checksum=143386559894cdea2e13b7c34b0d92d245614ee0fc80&_osacat=0&enc=AQAEAAACcIQvEcHUrT7nmUC3yY5qbPyaBN1nJEDYW8MyypsJPgXKRMnMe4hpRS1YrOJd%2BCnTxdRyfdacGomwNj60Jmz%2FfCquCdAozsA6RKs2mirpKVeA%2BTW7QLz5SqH68rB%2BfX6Kj2ipErJkdPjHajfTJYLgS6q6FSfsM69Uh2y%2Fs9eSK69%2F64ogl%2FZYFc9V5wQv8JxZ0YGDF4LAj5C0HVQ8gnAt6bS%2FYlvY71CAr%2F2sqOwzd8cMiIo9g3S67lsepXdsH9NvXSu0aYhywqRIOchL1eg%2FoQ%2FSak2IxneOjsOEMX2R%2FbomTdPnKZSoo4DQQ%2Bx1EzVCGrmOX3T85fvYVfDbI7zZ6QnAepZRHx0sUrpfQ3jHhGQZ544O4tc4PcgDmFKMEiYVeaixm1wZrvtFU1HwnjwFERBjhAhMCkZGgEmxMn5Lz2RVa26uAlr%2BDAWslCrzy%2B%2FjZZX9qEyrbC7bvF0r25ywUNsghFvx9hxgOCBbcOV0rai%2FUuooycncnB6G93R18Nkb2KJXWsduktp1RUCbCXrypcavSqpzevjNdWtFAwFbtve1ujcsY1reCtSUKfhRAqMeddUsNGRtD1rswt%2FnxdvcjGFWmZ5BlJVn8m7wEOjRCHKGrRIR08w9hk%2FnP05%2FzTTB9lVx8KaXHC4OibFjDbv42k8rMvB0Ocz6x089%2FqKM8q5meG68EOBjGnUcIh7uUlI4K7SrvqNEfjHh33utaInszmuP6p4qoE16F8eTXPB6etwZHrUrei%2Fw%2Bn3WH%2FZVEw3Q7LzGx7LQ4bZjcmh7HvbB1Tdu7%2BokZw6%2FdcMtw0vRCFttTbu%2FTJ6VQb5ozm%2BXqjQSHA%3D%3D&_from=R40&_trksid=p2046732.m570.l1313.TR10.TRC0.A0.H0.Xalligator+strap.TRS0&_nkw=alligator+strap&_sacat=0">
+                Delivery
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+<div class="search-modal" id="searchModal">
+    <div class="search-block">
+        <img src="img/close.svg" alt="" class="search-block-close">
+
+        <div class="search-block-line">
+            <label>
+                <img src="img/search.svg" alt="">
+                <input type="text" placeholder="Search">
+            </label>
+        </div>
+
+        <div class="search-block-tranding">
+            <h3>
+                TRENDING SEARCHES
+            </h3>
+
+            <p>
+                <a href="#">
+                    Any name
+                </a>
+            </p>
+
+            <p>
+                <a href="#">
+                    Any long name
+                </a>
+            </p>
+
+            <p>
+                <a href="#">
+                    Any name
+                </a>
+            </p>
+
+            <p>
+                <a href="#">
+                    Any long name
+                </a>
+            </p>
+
+            <p>
+                <a href="#">
+                    Any name
+                </a>
+            </p>
+        </div>
+    </div>
+</div>
+<!-- SCRIPTS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
