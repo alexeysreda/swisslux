@@ -1171,3 +1171,66 @@ body {
     font-size: 16px;
     line-height: 25px;
 }
+
+.checkout__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 25px;
+
+    & input, & select {
+        font-family: "Montserrat", sans-serif;
+        height: 46px;
+        background-color: #FFFFFF;
+        border: 1px solid #8E8E8E;
+        padding: 14px 25px;
+        color: #000;
+        box-sizing: border-box;
+
+        &::placeholder {
+            font-family: "Montserrat", sans-serif;
+            font-weight: normal;
+            font-size: 15px;
+            color: #8E8E8E;
+        }
+    }
+    & input {
+        width: 50%;
+        &:first-child {
+            margin-right: 20px;
+        }
+
+
+
+    }
+
+    & select {
+        //width: 100%;
+        //flex-basis: 48%;
+        //flex-grow: 1;
+        width: 100%;
+    }
+
+    & select {
+        appearance: none;
+    }
+
+    & .products__select_wrapper {
+        //width: 100%;
+        //width:100%;
+        margin-left: 0;
+        margin-right: 0;
+        display: flex;
+        width: 50%;
+
+        &:first-child {
+            margin-right: 20px;
+        }
+        &:last-child {
+            //margin-left: 20px;
+        }
+        //width: 100%;
+    }
+
+
+}

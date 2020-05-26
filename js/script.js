@@ -40,3 +40,20 @@ $(document).ready(function(){
     });
 
 });
+
+// changing border-color on inputs if they are not empty
+
+const input = Array.from(document.getElementsByTagName('input'));
+
+let s = ' ';
+s = s.replace(/^\s+|\s+$/g, '');
+
+input.forEach(function(el) {
+    el.addEventListener('keyup', function(){
+        if (el.value !== s) {
+            el.style.border = '1px solid #000';
+        }
+    });
+});
+
+
